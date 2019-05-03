@@ -24,12 +24,12 @@ package org.opensourcedea.dea;
 
 
 /**
- * An enum of the possible Variable Types (e.g. Input / Output Oriented).
+ * An enum of the possible Variable Types (e.g. Input / Output / UNDESIRED_OUTPUT Oriented).
  * </br>
  * @author Hubert Virtos
  *
  */
 public enum VariableOrientation {
-	INPUT, OUTPUT
+	INPUT, OUTPUT, UNDESIRED_OUTPUT
 }
 

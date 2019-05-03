@@ -333,7 +333,12 @@ public enum ModelType {
 			ModelOrientation.OUTPUT_ORIENTED,
 			EfficiencyType.TECH,
 			ReturnsToScale.GENERAL,
-			ModelVariablesType.NON_DISCRETIONARY);
+			ModelVariablesType.NON_DISCRETIONARY),
+	SBM_I_UNDESIRED_O ("The Input Oriented version of the SBM model with undesired output assuming VARIABLE RTS.",
+		   ModelOrientation.INPUT_ORIENTED,
+		   EfficiencyType.MIX,
+		   ReturnsToScale.VARIABLE,
+		   ModelVariablesType.STANDARD);
 	
 	
 	private String description;

@@ -87,7 +87,7 @@ public class SBM extends Model {
 
 
 
-	private static void storeSolution(DEAProblem deaP, int nbDMUs,
+	protected static void storeSolution(DEAProblem deaP, int nbDMUs,
 			int nbVariables, DEAPSolution returnSol, int dmuIndex, SolverResults sol) {
 		
 		
