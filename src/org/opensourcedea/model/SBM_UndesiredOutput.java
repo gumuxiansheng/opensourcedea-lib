@@ -23,14 +23,10 @@
 package org.opensourcedea.model;
 
 import lpsolve.LpSolve;
-import org.opensourcedea.dea.*;
-import org.opensourcedea.exception.DEASolverException;
+import org.opensourcedea.dea.DEAProblem;
+import org.opensourcedea.dea.ModelType;
+import org.opensourcedea.dea.VariableOrientation;
 import org.opensourcedea.exception.MissingDataException;
-import org.opensourcedea.exception.ProblemNotSolvedProperlyException;
-import org.opensourcedea.linearSolver.Lpsolve;
-import org.opensourcedea.linearSolver.SolverResults;
-import org.opensourcedea.parameters.OSDEAParameters;
-import org.opensourcedea.utils.MathUtils;
 
 import java.util.ArrayList;
 
