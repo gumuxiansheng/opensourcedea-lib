@@ -334,8 +334,8 @@ public enum ModelType {
 			EfficiencyType.TECH,
 			ReturnsToScale.GENERAL,
 			ModelVariablesType.NON_DISCRETIONARY),
-	SBM_I_UNDESIRED_O ("The Input Oriented version of the SBM model with undesired output assuming VARIABLE RTS.",
-		   ModelOrientation.INPUT_ORIENTED,
+	SBM_UNDESIRED_O("SBM with Undesired Output (CRS, VRS and GRS) Non Oriented model",
+		   ModelOrientation.NON_ORIENTED,
 		   EfficiencyType.MIX,
 		   ReturnsToScale.VARIABLE,
 		   ModelVariablesType.STANDARD);

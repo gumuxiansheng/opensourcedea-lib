@@ -192,6 +192,9 @@ public class DEAProblem implements Serializable{
 				this.getModelType() == ModelType.SBM_O_GRS){
 			modelDetails.setModel(new SBM_O());
 		}
+		else if (this.getModelType() == ModelType.SBM_UNDESIRED_O) {
+			modelDetails.setModel(new SBM_UndesiredOutput());
+		}
 
 	}
 

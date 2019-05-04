@@ -11,8 +11,8 @@
 #
 # Change the paths below this line and you should be ready to go!
 # -------------------------------------------------------------------
-LPSOLVE_DIR=/Users/spkane/Desktop/mac/downloads/lp_solve/lp_solve_5.5
-JDK_DIR=/System/Library/Frameworks/JavaVM.framework/Versions/Current/Headers
+LPSOLVE_DIR=/Users/mikezhu/Dev/Java/OSDEA_Extend/opensourcedea-lib/lpsolve/mac
+JDK_DIR=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
 
 # OK, here we go!
 
