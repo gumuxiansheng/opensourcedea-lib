@@ -39,7 +39,7 @@ import java.util.ArrayList;
  */
 public class SBM_UndesiredOutput extends SBM {
 
-    private static void createModel(DEAProblem deaP, int nbDMUs,
+    protected void createModel(DEAProblem deaP, int nbDMUs,
                                     int nbVariables, double[][] transposedMatrix, int dmuIndex,
                                     ArrayList<double[]> constraints, double[] objF,
                                     int[] solverEqualityType, double[] rhs) throws MissingDataException {
